@@ -1,4 +1,7 @@
+Official link:
 https://nodejs.org/api/esm.html
+
+-----------------------------------------------------------------------------------------
 
 make sure to add "type":"module" in package.json file to use es6 module import/export feature
 
@@ -6,4 +9,16 @@ Side-Effects of using es6 modules:
 
 when using es6 modules, we no longer can use globally defined variables like '__dirname'
 but we cn re-create them
+
+-------------------------------------------------------------------------------------------------
+
+Promises in core APIs
+
+we have already used async await like promises in our application but we also need to see
+how we can use promises in core APIs like file callback functions
+
+https://nodejs.org/api/fs.html
+
+so earlier, we had only callback functions approach if we want some code to be executed after something has finished executing
+but now, in such scenarios also, we can use promoises 
 
