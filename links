@@ -1,0 +1,9 @@
+https://nodejs.org/api/esm.html
+
+make sure to add "type":"module" in package.json file to use es6 module import/export feature
+
+Side-Effects of using es6 modules:
+
+when using es6 modules, we no longer can use globally defined variables like '__dirname'
+but we cn re-create them
+
